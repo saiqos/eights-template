@@ -1,0 +1,722 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seventh Template or first on my new laptop</title>
+    <link href="https://fonts.googleapis.com/css2?family=Philosopher:wght@700&family=Roboto:wght@400;500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/choices.js@9.0.1/public/assets/styles/choices.min.css" />
+    <link rel="stylesheet" href="styles/index.css">
+</head>
+
+<body>
+    <div class="bg-batman-wrapper"></div>
+    <img src="img/bg-batman.png" alt="" class="bg-batman">
+    <div class="bg-first-wrapper"></div>
+    <img src="img/bg-first.png" alt="" class="bg-first">
+    <header class="header">
+        <div class="container header__cont">
+            <div class="header__flex">
+                <a href="#">
+                    <img src="img/Logo.png" alt="" class="header__logo">
+                </a>
+                <nav class="header__nav">
+                    <a href="#">Главная</a>
+                    <a href="#">Подборки</a>
+                    <select name="#" id="#" class="header__nav-select">
+                        <option value="">По жанру</option>
+                        <option value="">Боевик</option>
+                        <option value="">Военные</option>
+                        <option value="">Детектив</option>
+                        <option value="">Детский</option>
+                        <option value="">Драма</option>
+                        <option value="">Комедия</option>
+                        <option value="">Криминал</option>
+                        <option value="">Мелодрама</option>
+                        <option value="">Триллер</option>
+                        <option value="">Ужасы</option>
+                        <option value="">Фантастика</option>
+                        <option value="">Фэнтези</option>
+                    </select>
+                    <a href="#">Фильмы </a>
+                    <a href="#">Сериалы </a>
+                    <a href="#">Мультфильмы </a>
+                    <a href="#">Аниме </a>
+                    <a href="#">Актеры</a>
+                </nav>
+                <div class="header__search-box">
+                    <input type="text" class="search-input" placeholder="Поиск по сайту">
+                    <a href="#" class="search-btn"><img src="img/loupe (9) 1.svg" alt=""></a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+    <div class="container">
+        <div class="content-flex">
+            <main class="main-content">
+                <section class="best-films">
+                    <div class="best-films__slider">
+                        <div class="best-films__slider-item">
+                            <ul class="slider-item__menu">
+                                <li><a href="#">Главная /</a></li>
+                                <li><a href="#">Подборки /</a></li>
+                                <li><a href="#" class="last-link">Лучшие фильмы всех времен</a></li>
+                            </ul>
+                            <h2 class="slider__h2">
+                                Лучшие фильмы всех времен
+                            </h2>
+                            <img src="img/slider-1.png" alt="">
+                        </div>
+                        <div class="best-films__slider-item">
+                            <ul class="slider-item__menu">
+                                <li><a href="#">Главная /</a></li>
+                                <li><a href="#">Подборки /</a></li>
+                                <li><a href="#" class="last-link">Фильмы похожие на Большой куш</a></li>
+                            </ul>
+                            <h2 class="slider__h2-kush">
+                                Фильмы похожие на Большой куш
+                            </h2>
+                            <img src="img/slider-1-kush.png" alt="">
+                            <img src="img/Оценка.png" alt="" class="grade">
+                        </div>
+                        <div class="best-films__slider-item">
+                            <ul class="slider-item__menu">
+                                <li><a href="#">Главная /</a></li>
+                                <li><a href="#">Подборки /</a></li>
+                                <li><a href="#" class="last-link">Лучшие фильмы всех времен</a></li>
+                            </ul>
+                            <h2 class="slider__h2">
+                                Лучшие фильмы всех времен
+                            </h2>
+                            <img src="img/slider-1.png" alt="">
+                        </div>
+                        <div class="best-films__slider-item">
+                            <ul class="slider-item__menu">
+                                <li><a href="#">Главная /</a></li>
+                                <li><a href="#">Подборки /</a></li>
+                                <li><a href="#" class="last-link">Фильмы похожие на Большой куш</a></li>
+                            </ul>
+                            <h2 class="slider__h2-kush">
+                                Фильмы похожие на Большой куш
+                            </h2>
+                            <img src="img/slider-1-kush.png" alt="">
+                            <img src="img/Оценка.png" alt="" class="grade">
+                        </div>
+                    </div>
+                    <p class="best-films-p">
+                        Мы собрали для Вас подборку лучших фильмов по теме “{название подборки}” с рейтингом от
+                        {минимальный
+                        рейтинг фильмов из подборки} и до {максимальный рейтинг фильмов из подборки}. В неё вошли
+                        фильмы
+                        следующих жанров: {жанр1}({число раз}), {жанр2}({число раз}), {жанр3}({число раз}). Самый
+                        новый
+                        фильм -
+                        {год} года, самый старый фильм - {год} года. Продолжительность фильмов от {минимальная
+                        продолжительность} до {максимальная продолжительность}. Выбирайте фильм и приятного
+                        просмотра!
+                    </p>
+                </section>
+
+                <section class="compilation">
+                    <h2 class="h2-options">
+                        Лучшие фильмы подборки
+                    </h2>
+                    <div class="compilations__line"></div>
+
+                    <div class="compilations__slider">
+                        <div class="compilations__slider-item-wrapper">
+                            <div class="compilations__slider-item">
+                                <div class="compilation__rating">
+                                    <img src="img/Рейтинг Кинопоиск.png" alt="">
+                                    <img src="img/Рейтинг IMBb.png" alt="">
+                                </div>
+                                <img src="img/compilation-1.png" alt="" class="compilations__slider-item-main-img">
+                                <a href="second-page.html" class="compilations__slider-item-a">
+                                    <img src="img/youtube (2) 1.svg" alt="">
+                                    <p>Смотреть</p>
+                                </a>
+                            </div>
+                            <h3>Механик</h3>
+                            <p>2020, Драма, США</p>
+                        </div>
+                        <div class="compilations__slider-item-wrapper">
+                            <div class="compilations__slider-item">
+                                <div class="compilation__rating">
+                                    <img src="img/Рейтинг Кинопоиск.png" alt="">
+                                    <img src="img/Рейтинг IMBb.png" alt="">
+                                </div>
+                                <img src="img/compilation-2.png" alt="" class="compilations__slider-item-main-img">
+                                <a href="second-page.html" class="compilations__slider-item-a">
+                                    <img src="img/youtube (2) 1.svg" alt="">
+                                    <p>Смотреть</p>
+                                </a>
+                            </div>
+                            <h3>Шан-Чи и легенда десяти колец</h3>
+                            <p>2020, Фантастика, Великобритания</p>
+                        </div>
+                        <div class="compilations__slider-item-wrapper">
+                            <div class="compilations__slider-item">
+                                <div class="compilation__rating">
+                                    <img src="img/Рейтинг Кинопоиск.png" alt="">
+                                    <img src="img/Рейтинг IMBb.png" alt="">
+                                </div>
+                                <img src="img/compilation-3.png" alt="" class="compilations__slider-item-main-img">
+                                <a href="second-page.html" class="compilations__slider-item-a">
+                                    <img src="img/youtube (2) 1.svg" alt="">
+                                    <p>Смотреть</p>
+                                </a>
+                            </div>
+                            <h3>Гениальное ограбление</h3>
+                            <p>2020, Драма, США</p>
+                        </div>
+                        <div class="compilations__slider-item-wrapper">
+                            <div class="compilations__slider-item">
+                                <div class="compilation__rating">
+                                    <img src="img/Рейтинг Кинопоиск.png" alt="">
+                                    <img src="img/Рейтинг IMBb.png" alt="">
+                                </div>
+                                <img src="img/compilation-4.png" alt="" class="compilations__slider-item-main-img">
+                                <a href="second-page.html" class="compilations__slider-item-a">
+                                    <img src="img/youtube (2) 1.svg" alt="">
+                                    <p>Смотреть</p>
+                                </a>
+                            </div>
+                            <h3>Персонаж</h3>
+                            <p>2020, Драма, США</p>
+                        </div>
+                        <div class="compilations__slider-item-wrapper">
+                            <div class="compilations__slider-item">
+                                <div class="compilation__rating">
+                                    <img src="img/Рейтинг Кинопоиск.png" alt="">
+                                    <img src="img/Рейтинг IMBb.png" alt="">
+                                </div>
+                                <img src="img/compilation-5.png" alt="" class="compilations__slider-item-main-img">
+                                <a href="second-page.html" class="compilations__slider-item-a">
+                                    <img src="img/youtube (2) 1.svg" alt="">
+                                    <p>Смотреть</p>
+                                </a>
+                            </div>
+                            <h3>Пассажиры</h3>
+                            <p>2020, Драма, США</p>
+                        </div>
+                        <div class="compilations__slider-item-wrapper">
+                            <div class="compilations__slider-item">
+                                <div class="compilation__rating">
+                                    <img src="img/Рейтинг Кинопоиск.png" alt="">
+                                    <img src="img/Рейтинг IMBb.png" alt="">
+                                </div>
+                                <img src="img/compilation-1.png" alt="" class="compilations__slider-item-main-img">
+                                <a href="second-page.html" class="compilations__slider-item-a">
+                                    <img src="img/youtube (2) 1.svg" alt="">
+                                    <p>Смотреть</p>
+                                </a>
+                            </div>
+                            <h3>Механик</h3>
+                            <p>2020, Драма, США</p>
+                        </div>
+                        <div class="compilations__slider-item-wrapper">
+                            <div class="compilations__slider-item">
+                                <div class="compilation__rating">
+                                    <img src="img/Рейтинг Кинопоиск.png" alt="">
+                                    <img src="img/Рейтинг IMBb.png" alt="">
+                                </div>
+                                <img src="img/compilation-2.png" alt="" class="compilations__slider-item-main-img">
+                                <a href="second-page.html" class="compilations__slider-item-a">
+                                    <img src="img/youtube (2) 1.svg" alt="">
+                                    <p>Смотреть</p>
+                                </a>
+                            </div>
+                            <h3>Шан-Чи и легенда десяти колец</h3>
+                            <p>2020, Фантастика, Великобритания</p>
+                        </div>
+
+                        <div class="compilations__slider-item-wrapper">
+                            <div class="compilations__slider-item">
+                                <div class="compilation__rating">
+                                    <img src="img/Рейтинг Кинопоиск.png" alt="">
+                                    <img src="img/Рейтинг IMBb.png" alt="">
+                                </div>
+                                <img src="img/compilation-3.png" alt="" class="compilations__slider-item-main-img">
+                                <a href="second-page.html" class="compilations__slider-item-a">
+                                    <img src="img/youtube (2) 1.svg" alt="">
+                                    <p>Смотреть</p>
+                                </a>
+                            </div>
+                            <h3>Гениальное ограбление</h3>
+                            <p>2020, Драма, США</p>
+                        </div>
+
+                        <div class="compilations__slider-item-wrapper">
+                            <div class="compilations__slider-item">
+                                <div class="compilation__rating">
+                                    <img src="img/Рейтинг Кинопоиск.png" alt="">
+                                    <img src="img/Рейтинг IMBb.png" alt="">
+                                </div>
+                                <img src="img/compilation-4.png" alt="" class="compilations__slider-item-main-img">
+                                <a href="second-page.html" class="compilations__slider-item-a">
+                                    <img src="img/youtube (2) 1.svg" alt="">
+                                    <p>Смотреть</p>
+                                </a>
+                            </div>
+                            <h3>Персонаж</h3>
+                            <p>2020, Драма, США</p>
+                        </div>
+
+                        <div class="compilations__slider-item-wrapper">
+                            <div class="compilations__slider-item">
+                                <div class="compilation__rating">
+                                    <img src="img/Рейтинг Кинопоиск.png" alt="">
+                                    <img src="img/Рейтинг IMBb.png" alt="">
+                                </div>
+                                <img src="img/compilation-5.png" alt="" class="compilations__slider-item-main-img">
+                                <a href="second-page.html" class="compilations__slider-item-a">
+                                    <img src="img/youtube (2) 1.svg" alt="">
+                                    <p>Смотреть</p>
+                                </a>
+                            </div>
+                            <h3>Пассажиры</h3>
+                            <p>2020, Драма, США</p>
+                        </div>
+                    </div>
+                </section>
+                <section class="new">
+                    <h2 class="h2-options">
+                        Новые фильмы подборки
+                    </h2>
+                    <div class="compilations__line"></div>
+
+                    <div class="compilations__slider">
+                        <div class="compilations__slider-item-wrapper">
+                            <div class="compilations__slider-item">
+                                <div class="compilation__rating">
+                                    <img src="img/Рейтинг Кинопоиск.png" alt="">
+                                    <img src="img/Рейтинг IMBb.png" alt="">
+                                </div>
+                                <img src="img/compilation-1.png" alt="" class="compilations__slider-item-main-img">
+                                <a href="second-page.html" class="compilations__slider-item-a">
+                                    <img src="img/youtube (2) 1.svg" alt="">
+                                    <p>Смотреть</p>
+                                </a>
+                            </div>
+                            <h3>Механик</h3>
+                            <p>2020, Драма, США</p>
+                        </div>
+                        <div class="compilations__slider-item-wrapper">
+                            <div class="compilations__slider-item">
+                                <div class="compilation__rating">
+                                    <img src="img/Рейтинг Кинопоиск.png" alt="">
+                                    <img src="img/Рейтинг IMBb.png" alt="">
+                                </div>
+                                <img src="img/compilation-2.png" alt="" class="compilations__slider-item-main-img">
+                                <a href="second-page.html" class="compilations__slider-item-a">
+                                    <img src="img/youtube (2) 1.svg" alt="">
+                                    <p>Смотреть</p>
+                                </a>
+                            </div>
+                            <h3>Шан-Чи и легенда десяти колец</h3>
+                            <p>2020, Фантастика, Великобритания</p>
+                        </div>
+                        <div class="compilations__slider-item-wrapper">
+                            <div class="compilations__slider-item">
+                                <div class="compilation__rating">
+                                    <img src="img/Рейтинг Кинопоиск.png" alt="">
+                                    <img src="img/Рейтинг IMBb.png" alt="">
+                                </div>
+                                <img src="img/compilation-3.png" alt="" class="compilations__slider-item-main-img">
+                                <a href="second-page.html" class="compilations__slider-item-a">
+                                    <img src="img/youtube (2) 1.svg" alt="">
+                                    <p>Смотреть</p>
+                                </a>
+                            </div>
+                            <h3>Гениальное ограбление</h3>
+                            <p>2020, Драма, США</p>
+                        </div>
+                        <div class="compilations__slider-item-wrapper">
+                            <div class="compilations__slider-item">
+                                <div class="compilation__rating">
+                                    <img src="img/Рейтинг Кинопоиск.png" alt="">
+                                    <img src="img/Рейтинг IMBb.png" alt="">
+                                </div>
+                                <img src="img/compilation-4.png" alt="" class="compilations__slider-item-main-img">
+                                <a href="second-page.html" class="compilations__slider-item-a">
+                                    <img src="img/youtube (2) 1.svg" alt="">
+                                    <p>Смотреть</p>
+                                </a>
+                            </div>
+                            <h3>Персонаж</h3>
+                            <p>2020, Драма, США</p>
+                        </div>
+                        <div class="compilations__slider-item-wrapper">
+                            <div class="compilations__slider-item">
+                                <div class="compilation__rating">
+                                    <img src="img/Рейтинг Кинопоиск.png" alt="">
+                                    <img src="img/Рейтинг IMBb.png" alt="">
+                                </div>
+                                <img src="img/compilation-5.png" alt="" class="compilations__slider-item-main-img">
+                                <a href="second-page.html" class="compilations__slider-item-a">
+                                    <img src="img/youtube (2) 1.svg" alt="">
+                                    <p>Смотреть</p>
+                                </a>
+                            </div>
+                            <h3>Пассажиры</h3>
+                            <p>2020, Драма, США</p>
+                        </div>
+                        <div class="compilations__slider-item-wrapper">
+                            <div class="compilations__slider-item">
+                                <div class="compilation__rating">
+                                    <img src="img/Рейтинг Кинопоиск.png" alt="">
+                                    <img src="img/Рейтинг IMBb.png" alt="">
+                                </div>
+                                <img src="img/compilation-1.png" alt="" class="compilations__slider-item-main-img">
+                                <a href="second-page.html" class="compilations__slider-item-a">
+                                    <img src="img/youtube (2) 1.svg" alt="">
+                                    <p>Смотреть</p>
+                                </a>
+                            </div>
+                            <h3>Механик</h3>
+                            <p>2020, Драма, США</p>
+                        </div>
+                        <div class="compilations__slider-item-wrapper">
+                            <div class="compilations__slider-item">
+                                <div class="compilation__rating">
+                                    <img src="img/Рейтинг Кинопоиск.png" alt="">
+                                    <img src="img/Рейтинг IMBb.png" alt="">
+                                </div>
+                                <img src="img/compilation-2.png" alt="" class="compilations__slider-item-main-img">
+                                <a href="second-page.html" class="compilations__slider-item-a">
+                                    <img src="img/youtube (2) 1.svg" alt="">
+                                    <p>Смотреть</p>
+                                </a>
+                            </div>
+                            <h3>Шан-Чи и легенда десяти колец</h3>
+                            <p>2020, Фантастика, Великобритания</p>
+                        </div>
+
+                        <div class="compilations__slider-item-wrapper">
+                            <div class="compilations__slider-item">
+                                <div class="compilation__rating">
+                                    <img src="img/Рейтинг Кинопоиск.png" alt="">
+                                    <img src="img/Рейтинг IMBb.png" alt="">
+                                </div>
+                                <img src="img/compilation-3.png" alt="" class="compilations__slider-item-main-img">
+                                <a href="second-page.html" class="compilations__slider-item-a">
+                                    <img src="img/youtube (2) 1.svg" alt="">
+                                    <p>Смотреть</p>
+                                </a>
+                            </div>
+                            <h3>Гениальное ограбление</h3>
+                            <p>2020, Драма, США</p>
+                        </div>
+
+                        <div class="compilations__slider-item-wrapper">
+                            <div class="compilations__slider-item">
+                                <div class="compilation__rating">
+                                    <img src="img/Рейтинг Кинопоиск.png" alt="">
+                                    <img src="img/Рейтинг IMBb.png" alt="">
+                                </div>
+                                <img src="img/compilation-4.png" alt="" class="compilations__slider-item-main-img">
+                                <a href="second-page.html" class="compilations__slider-item-a">
+                                    <img src="img/youtube (2) 1.svg" alt="">
+                                    <p>Смотреть</p>
+                                </a>
+                            </div>
+                            <h3>Персонаж</h3>
+                            <p>2020, Драма, США</p>
+                        </div>
+
+                        <div class="compilations__slider-item-wrapper">
+                            <div class="compilations__slider-item">
+                                <div class="compilation__rating">
+                                    <img src="img/Рейтинг Кинопоиск.png" alt="">
+                                    <img src="img/Рейтинг IMBb.png" alt="">
+                                </div>
+                                <img src="img/compilation-5.png" alt="" class="compilations__slider-item-main-img">
+                                <a href="second-page.html" class="compilations__slider-item-a">
+                                    <img src="img/youtube (2) 1.svg" alt="">
+                                    <p>Смотреть</p>
+                                </a>
+                            </div>
+                            <h3>Пассажиры</h3>
+                            <p>2020, Драма, США</p>
+                        </div>
+                    </div>
+                </section>
+                <section class="similar">
+                    <h2 class="h2-options">
+                        Все похожие фильмы
+                    </h2>
+                    <div class="compilations__line"></div>
+
+                    <div class="similar__flex">
+                        <div class="similar__flex-item">
+                            <img src="img/similar-1.png" alt="">
+                            <h3>Мужские слезы</h3>
+                            <p>2020, Драма, США</p>
+                        </div>
+                        <div class="similar__flex-item">
+                            <img src="img/similar-2.png" alt="">
+                            <h3>Исчезнувший</h3>
+                            <p>2020, Драма, США</p>
+                        </div>
+                        <div class="similar__flex-item">
+                            <img src="img/similar-3.png" alt="">
+                            <h3>Пассажиры</h3>
+                            <p>2020, Драма, США</p>
+                        </div>
+                        <div class="similar__flex-item">
+                            <img src="img/similar-4.png" alt="">
+                            <h3>Злое</h3>
+                            <p>2020, Драма, США</p>
+                        </div>
+                        <div class="similar__flex-item">
+                            <img src="img/similar-5.png" alt="">
+                            <h3>Дальний космос</h3>
+                            <p>2020, Фантастика, Великобритания</p>
+                        </div>
+                    </div>
+
+                    <div class="similar__flex">
+                        <div class="similar__flex-item">
+                            <img src="img/similar-6.png" alt="">
+                            <h3>Гениальное ограбление</h3>
+                            <p>2020, Фантастика, Великобритания</p>
+                        </div>
+                        <div class="similar__flex-item">
+                            <img src="img/similar-7.png" alt="">
+                            <h3>Персонаж</h3>
+                            <p>2020, Драма, США</p>
+                        </div>
+                        <div class="similar__flex-item">
+                            <img src="img/similar-8.png" alt="">
+                            <h3>Пассажиры</h3>
+                            <p>2020, Драма, США</p>
+                        </div>
+                        <div class="similar__flex-item">
+                            <img src="img/similar-9.png" alt="">
+                            <h3>Шан-Чи и легенда десяти колец</h3>
+                            <p>2020, Драма, США</p>
+                        </div>
+                        <div class="similar__flex-item">
+                            <img src="img/Insidious_The_Red_Door.jpg" alt="">
+                            <h3>Астрал 5</h3>
+                            <p>2023, Ужасы, США</p>
+                        </div>
+                    </div>
+                </section>
+                <section class="this">
+                    <h2 class="h2-options">
+                        Этот фильм в подборках:
+                    </h2>
+                    <div class="compilations__line"></div>
+                    <div class="this__flex">
+                        <div class="this__flex-item">
+                            <img src="img/this-1.png" alt="">
+                            <p>Фильмы про настоящих безумцев</p>
+                        </div>
+                        <div class="this__flex-item">
+                            <img src="img/this-2.png" alt="">
+                            <p>Жили долго и счастливо</p>
+                        </div>
+                        <div class="this__flex-item">
+                            <img src="img/this-3.png" alt="">
+                            <p>Темная сторона правосудия</p>
+                        </div>
+                        <div class="this__flex-item">
+                            <img src="img/this-4.png" alt="">
+                            <p>Фильмы про Марс</p>
+                        </div>
+                    </div>
+                    <div class="this__flex">
+                        <div class="this__flex-item">
+                            <img src="img/this-1.png" alt="">
+                            <p>Фильмы про настоящих безумцев</p>
+                        </div>
+                        <div class="this__flex-item">
+                            <img src="img/this-2.png" alt="">
+                            <p>Жили долго и счастливо</p>
+                        </div>
+                        <div class="this__flex-item">
+                            <img src="img/this-3.png" alt="">
+                            <p>Темная сторона правосудия</p>
+                        </div>
+                        <div class="this__flex-item">
+                            <img src="img/this-4.png" alt="">
+                            <p>Фильмы про Марс</p>
+                        </div>
+                    </div>
+                </section>
+            </main>
+            <div class="aside-content">
+                <aside class="aside-menu">
+                    <div class="aside-menu__header">
+                        <h3 class="aside-menu-h3">Похожие коллекции</h3>
+                    </div>
+
+                    <div class="aside-menu__item">
+                        <img src="img/aside-1.png" alt="" class="aside-menu__img">
+                        <div class="aside-menu__text">
+                            <p class="aside-menu__time">
+                                <img src="img/clock (1) 1.svg" alt="">
+                                <span>2 недели назад</span>
+                            </p>
+                            <p class="aside-menu__text-p">
+                                Задача организации, в особенности же новая формировании.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="aside-menu__item">
+                        <img src="img/aside-2.png" alt="" class="aside-menu__img">
+                        <div class="aside-menu__text">
+                            <p class="aside-menu__time">
+                                <img src="img/clock (1) 1.svg" alt="">
+                                <span>2 недели назад</span>
+                            </p>
+                            <p class="aside-menu__text-p">
+                                Задача организации, в особенности же новая формировании.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="aside-menu__item">
+                        <img src="img/aside-3.png" alt="" class="aside-menu__img">
+                        <div class="aside-menu__text">
+                            <p class="aside-menu__time">
+                                <img src="img/clock (1) 1.svg" alt="">
+                                <span>2 недели назад</span>
+                            </p>
+                            <p class="aside-menu__text-p">
+                                Задача организации, в особенности же новая формировании.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="aside-menu__item">
+                        <img src="img/aside-4.png" alt="" class="aside-menu__img">
+                        <div class="aside-menu__text">
+                            <p class="aside-menu__time">
+                                <img src="img/clock (1) 1.svg" alt="">
+                                <span>2 недели назад</span>
+                            </p>
+                            <p class="aside-menu__text-p">
+                                Задача организации, в особенности же новая формировании.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="aside-menu__item">
+                        <img src="img/aside-5.png" alt="" class="aside-menu__img">
+                        <div class="aside-menu__text">
+                            <p class="aside-menu__time">
+                                <img src="img/clock (1) 1.svg" alt="">
+                                <span>2 недели назад</span>
+                            </p>
+                            <p class="aside-menu__text-p">
+                                Задача организации, в особенности же новая формировании.
+                            </p>
+                        </div>
+                    </div>
+                </aside>
+
+                <aside class="aside-menu-2">
+                    <div class="aside-menu__header">
+                        <h3 class="aside-menu-h3">популярные коллекции</h3>
+                    </div>
+                    <div class="aside-menu-2__slider">
+                        <div class="aside-menu-2__slider-item">
+                            <h3>
+                                Лучшие сериалы 2015-2021 годов
+                            </h3>
+                            <a href="#">
+                                Смотреть
+                            </a>
+                            <img src="img/aside-2-menu-2(source).png" alt="">
+                        </div>
+                        <div class="aside-menu-2__slider-item">
+                            <h3>
+                                Лучшие сериалы 2015-2021 годов
+                            </h3>
+                            <a href="#">
+                                Смотреть
+                            </a>
+                            <img src="img/aside-2-menu-2(source).png" alt="">
+                        </div>
+                        <div class="aside-menu-2__slider-item">
+                            <h3>
+                                Лучшие сериалы 2015-2021 годов
+                            </h3>
+                            <a href="#">
+                                Смотреть
+                            </a>
+                            <img src="img/aside-2-menu-2(source).png" alt="">
+                        </div>
+                        <div class="aside-menu-2__slider-item">
+                            <h3>
+                                Лучшие сериалы 2015-2021 годов
+                            </h3>
+                            <a href="#">
+                                Смотреть
+                            </a>
+                            <img src="img/aside-2-menu-2(source).png" alt="">
+                        </div>
+                    </div>
+
+                </aside>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__flex">
+                <img src="img/logo-footer.png" alt="" class="footer__flex-logo">
+                <div class="footer__flex-menu">
+                    <h3 class="footer__h3">Меню</h3>
+                    <ul>
+                        <li><a href="#">Подборки </a></li>
+                        <li><a href="#">По жанру</a></li>
+                        <li><a href="#">Фильмы </a></li>
+                        <li><a href="#">Сериалы </a></li>
+                        <li><a href="#">Мультфильмы </a></li>
+                        <li><a href="#">Аниме </a></li>
+                        <li><a href="#">Актеры</a></li>
+                    </ul>
+                </div>
+                <div class="footer__about-us">
+                    <h3 class="footer__h3">О нас</h3>
+                    <p>
+                        Зная всё о кино, хочется поделиться этим с другими. Делитесь фильмами, трейлерами, персонами и
+                        новостями в социальных сетях, присваивайте рейтинги фильмам и обсуждайте их с друзьями и
+                        подписчиками!
+                    </p>
+                    <p>
+                        Интересные фильмы, ближайшие кинотеатры и любимых актеров можно добавлять в «Избранное». Система
+                        покажет все связанные с ними новости и новые трейлеры, подскажет, когда можно купить билет в
+                        кино на интересующую премьеру. Присоединяйтесь!
+                    </p>
+                </div>
+            </div>
+
+            <div class="footer__bottom">
+
+                <p class="rights">
+                    ©Все права защищены MovieDB.ru 2021
+                </p>
+                <ul class="media">
+                    <li><a href="#"><img src="img/facebook (7) 1.svg" alt=""></a></li>
+                    <li><a href="#"><img src="img/instagram (7) 1.svg" alt=""></a></li>
+                    <li><a href="#"><img src="img/vk-social-network-logo 1.svg" alt=""></a></li>
+                </ul>
+                <a href="#" class="footer__bottom-politics">Политика конфиденциальности</a>
+
+            </div>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/choices.js@9.0.1/public/assets/scripts/choices.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

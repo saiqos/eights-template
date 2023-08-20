@@ -1,0 +1,274 @@
+/*************************
+SECOND PAGE FIM-CARD******
+*************************/
+.film-card {
+    margin: 80px 0 0 0;
+}
+
+.second-col__background-options {
+    border-radius: 5px;
+    border: 1px solid #2B2B2B;
+    background: rgba(28, 29, 31, 0.50);
+    box-shadow: 0px 7px 16px 0px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(10px);
+}
+
+.film-card__row {
+    display: flex;
+    gap: 30px;
+}
+
+.rating {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    height: 152px;
+
+}
+
+.film-card__col-first {
+    width: 428px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.film-card__col-first>img {
+    max-width: 100%;
+}
+
+.film-card-third {
+    width: 428px;
+    height: 216px;
+}
+
+.film-card-third>img {
+    width: 428px;
+    height: 216px;
+    object-fit: cover;
+}
+
+.compilations__slider-item:hover .compilations__slider-item-a.card {
+    height: 216px;
+}
+
+.film-card__col-second {
+    width: 885px;
+}
+
+.film-card__col-second>h3 {
+    margin: 15px 0 0 0;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.film-card__col-second>h2 {
+    font-size: 40px;
+    font-weight: 500;
+    margin: 0;
+}
+
+.film-card__time {
+    border-radius: 5px;
+    border: 1px solid #2B2B2B;
+    background: #212121;
+    height: 84px;
+    margin: 30px 0 0 0;
+    padding: 15px 20px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+}
+
+.film-card__time>.text {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.film-card__time>.text>p {
+    font-weight: 500;
+}
+
+.film-card__time>.text>span {
+    font-size: 18px;
+}
+
+.bg-batman-wrapper {
+    background: radial-gradient(circle, #171717 80%, #000 90%);
+    z-index: -1;
+}
+
+.bg-batman {
+    opacity: 0.1;
+}
+
+.film-card__genre {
+    display: flex;
+    gap: 50px;
+    margin: 20px 0 0 0;
+    box-sizing: border-box;
+    padding: 15px 20px;
+    height: 204px;
+}
+
+.film-card__genre-col-first>p {
+    position: relative;
+}
+
+.film-card__genre-col-first>p::after {
+    content: '';
+    width: 884px;
+    height: 1px;
+    background-color: #2B2B2B;
+    position: absolute;
+    left: -20px;
+    bottom: -15px;
+}
+
+.film-card__genre-col-first {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    font-size: 18px;
+}
+
+.film-card__genre-col-second {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    font-size: 18px;
+}
+
+.film-card__genre-col-second>ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    gap: 10px;
+}
+
+.film-card__genre-col-second>ul a {
+    color: #fff;
+}
+
+.film-card__description {
+    margin: 20px 0 0 0;
+    height: 278px;
+    padding: 20px;
+    box-sizing: border-box;
+
+}
+
+.film-card__description>h3 {
+    margin: 0;
+    padding: 0;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+
+.film-card__description>p {
+    font-size: 18px;
+}
+
+.film-card__description>p {
+    margin-top: 15px;
+
+}
+
+.film-card__description>a {
+    display: block;
+    text-align: right;
+    color: #81BECB;
+    font-size: 18px;
+    margin-top: 19px;
+}
+
+.film-card__actors {
+    height: 382px;
+    margin: 20px 0 0 0;
+    padding: 15px 0 30px 20px;
+    box-sizing: border-box;
+}
+
+.film-card__actors>h4 {
+    font-size: 18px;
+    color: #A4A4A4;
+    font-weight: 500;
+    margin: 0;
+}
+
+.producer__row {
+    display: flex;
+    align-items: flex-start;
+    gap: 25px;
+    margin-top: 20px;
+
+}
+
+.producer__col-1 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border: 1px solid #2B2B2B;
+    width: 137px;
+}
+
+.producer__col-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    height: 53px;
+    gap: 10px;
+}
+
+.producer__col-2 .rating {
+    font-size: 18px;
+    display: flex;
+    gap: 5px;
+}
+
+.rating>.number {
+    color: #81BECB;
+    font-weight: 700;
+}
+
+.rating>.year {
+    color: #A4A4A4;
+}
+
+.film-card__actors .roles-h4 {
+    margin: 30px 0 0 0;
+}
+
+.roles__row {
+    margin-top: 20px;
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.roles__row-item {
+    display: flex;
+    align-items: center;
+    border: 1px solid #2B2B2B;
+    min-width: 170px;
+
+}
+
+.roles__row-item>span {
+    padding: 16px 10px;
+}
+
+.more-btn {
+    display: inline-block;
+    color: #81BECB;
+    font-size: 18px;
+    margin-top: 19px;
+}
+
+.film-card__col-first>img {
+    height: 666px;
+}
